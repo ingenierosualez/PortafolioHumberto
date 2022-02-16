@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Citas Médicas</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="css/style.css"> 
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+ <!--===== HEADER =====-->
+ <header class="l-header">
+  <nav class="nav bd-grid">
+      <div>
+          <a href="index.html" class="nav__logo">Humberto</a>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+      </div>
+  </nav>
+</header>
+
+<main class="l-main">
+ <!--===== HOME =====-->
+ <section class="home1 bd-grid" id="home1">
+    <h1 class="titulo-proyecto">Citas Médicas</h1>
+    <div class="imagenes-proyectos">    
+        <img src="img/citasmedicas/citas-medicas-1.jpg" alt="">
+    </div>
+    <div class="imagenes-proyectos">    
+        <img src="img/citasmedicas/citas-medicas-2.jpg" alt="">
+    </div>
+    <div class="imagenes-proyectos">    
+        <img src="img/citasmedicas/citas-medicas-3.jpg" alt="">
+    </div>
+    <div class="imagenes-proyectos">    
+        <img src="img/citasmedicas/citas-medicas-4.jpg" alt="">
+    </div>
+    <div class="imagenes-proyectos">    
+        <img src="img/citasmedicas/citas-medicas-5.jpg" alt="">
+    </div>
+</section>
+<section class="bd-grid section">
+    <h1 class="titulo-proposito">Propósito del Software</h1>
+    <p class="justificado">Llevar el control de pacientes y de las citas sirviendo para todos aquellos negocios que provean dichos servicios.
+    </p>
+    <h3 class="justificado">Módulo Pacientes</h3>
+    <p class="justificado"> 
+    En este módulo se pueden crear pacientes, buscar pacientes, ver la información del paciente, editar tal información, o "eliminar". Realmente no se elimina de la BD si no que se maneja por medio de un estatus y cambia su valor a Baja. Cuando un paciente es agregado se visualiza en la tabla.
+    </p>
+    <h3 class="justificado">Módulo Citas</h3>
+    <p class="justificado"> 
+    En este módulo se pueden agregar citas, buscar citas por día o absolutamente todas las citas, ver la información de la cita con información del citado, editar la cita, y eliminar la. Es importante mencionar que a la hora de crear una cita o editarla solo muestra los horarios disponibles, los que no se encuentran ocupados, evitando duplicidades en la hora y en el día. También a la hora de mostrar las citas resalta con un color cuál ya tiene el estatus Realizada. Cuando una cita es agregada se visualiza en la tabla
+    </p>
+    <br>
+    <br>
+    <h1 class="titulo-tecnologias">Tecnologías Utilizadas</h1> 
+    <p><span class="tecnologias">HTML</span> <span class="tecnologias">CSS</span> <span class="tecnologias">Bootstrap</span> <span class="tecnologias">JavaScript</span> <span class="tecnologias">jQuery</span> <span class="tecnologias">PHP</span> <span class="tecnologias">Datatables</span></p>
+</section>
+ 
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer">
+  <p class="footer__title">Redes Sociales</p>
+  <div class="footer__social">
+      <a href="https://www.linkedin.com/in/agustín-humberto-hernandez-sualez" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://www.facebook.com/AgustinHumbertoHernandezSualez" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+      <a href="https://wa.me/523241058104" target="_blank" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+  </div>
+  <p>Humberto Hernández 2022</p>
+</footer>
+
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!---JS CDN Link---->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--Custom JS File-->
+<script src="js/funciones.js"></script>
+
+</body>
+</html>
